@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Createx</title>
+  <link rel="preload" href="fonts/UbuntuRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+
+</head>
+
+<body class="page__body">
+  <div class="wrapper">
+    <header class="header header--work">
+  <div class="container header__container">
+    <a href="../index.html" class="logo"><img src="img/logo.svg" alt="CreatexLogo"></a>
+
+    <nav class="nav header__nav" title="" data-menu>
+      <ul class="nav__list list-reset">
+        <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
+        <li class="nav__item"><a href="services.html" class="nav__link ">Services</a></li>
+        <li class="nav__item"><a class="nav__link">Work</a></li>
+        <li class="nav__item"><a href="news.html" class="nav__link">News</a></li>
+        <li class="nav__item"><a href="contacts.html" class="nav__link">Contacts</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-contacts">
+      <a href="tel:4055550128" class="header-contacts__link contacts-link contacts-link--call">
+        <span class="contacts-link__caption">Call us</span>
+        <span class="contacts-link__value">(405) 555-0128</span>
+      </a>
+      <a href="mailto:hello@createx.com" class="header-contacts__link contacts-link contacts-link--mail">
+        <span class="contacts-link__caption">Talk to us</span>
+        <span class="contacts-link__value">hello@createx.com</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+    <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+  <span class="burger__line"></span>
+</button>
+
+    <main class="main">
+      <section class="hero-work offset-section">
+  <div class="container">
+    <ul class="list-reset breadcrumbs">
+      <li class="breadcrumbs__item"><a href="../index.html" class="breadcrumbs__link">Homepage</a></li>
+      <li class="breadcrumbs__item "><a class="breadcrumbs__link breadcrumbs__link">Work</a>
+      </li>
+    </ul>
+    <div class="hero-services__box">
+      <h1 class="hero-services__title main-title">Our work</h1>
+      <p class="hero-services__descr main-descr">Our portfolio represents 20 years of construction experience backed by
+        a passion for perfect client service, quality and innovations in consctuction industry.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+      <section class="services-block">
+  <div class="container">
+    <div class="services-block__tabs">
+
+      <div class="services-block__item">
+        <button class="services-block__btn btn-reset active" data-path="all">
+          <svg class="services-block__img main-svg">
+            <use xlink:href="img/sprite.svg#ic-house"></use>
+          </svg>
+          <div class="services-block__descr">All Projects</div>
+        </button>
+      </div>
+
+      <div class="services-block__item">
+        <button class="services-block__btn btn-reset" data-path="constr">
+          <svg class="services-block__img main-svg">
+            <use xlink:href="img/sprite.svg#services-section_01"></use>
+          </svg>
+          <div class="services-block__descr">Construction</div>
+        </button>
+      </div>
+
+      <div class="services-block__item">
+        <button class="services-block__btn btn-reset" data-path="dev">
+          <svg class="services-block__img main-svg">
+            <use xlink:href="img/sprite.svg#services-section_02"></use>
+          </svg>
+          <div class="services-block__descr">Project Development</div>
+        </button>
+      </div>
+
+      <div class="services-block__item">
+        <button class="services-block__btn btn-reset" data-path="design">
+          <svg class="services-block__img main-svg">
+            <use xlink:href="img/sprite.svg#services-section_03"></use>
+          </svg>
+          <div class="services-block__descr">Interior Design</div>
+        </button>
+      </div>
+
+      <div class="services-block__item">
+        <button class="services-block__btn btn-reset" data-path="repair">
+          <svg class="services-block__img main-svg">
+            <use xlink:href="img/sprite.svg#services-section_04"></use>
+          </svg>
+          <div class="services-block__descr">Repairs</div>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      <section class="work-content">
+  <div class="container work-content__container">
+
+    <div class="portfolio-section__slide work-content__item active" data-target="constr">
+      <img src="img/page-work/work-content_01.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Cubes Building</h3>
+      <p class="portfolio-section__slide-descr">Business Centers</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="constr">
+      <img src="img/page-work/work-content_02.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Modern Cottage</h3>
+      <p class="portfolio-section__slide-descr">Private houses</p>
+      <a href="work-inner.html" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="constr">
+      <img src="img/page-work/work-content_03.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Luxury Beach House</h3>
+      <p class="portfolio-section__slide-descr">Private houses</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="design">
+      <img src="img/page-work/work-content_04.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Modern Double Bedroom</h3>
+      <p class="portfolio-section__slide-descr">Apartments & flats</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="design">
+      <img src="img/page-work/work-content_05.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Kids Bedroom With Decorations</h3>
+      <p class="portfolio-section__slide-descr">Apartments & flats</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="dev">
+      <img src="img/page-work/work-content_06.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">The Pencil Building</h3>
+      <p class="portfolio-section__slide-descr">Stores & Malls</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="dev">
+      <img src="img/page-work/work-content_07.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Red Finger Building</h3>
+      <p class="portfolio-section__slide-descr">Business Centers</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="repair">
+      <img src="img/page-work/work-content_08.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Scandinavian Style Interior</h3>
+      <p class="portfolio-section__slide-descr">Private houses</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="repair">
+      <img src="img/page-work/work-content_09.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Brown and Gray Painted House</h3>
+      <p class="portfolio-section__slide-descr">Private houses</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="dev">
+      <img src="img/page-work/work-content_07.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Red Finger Building</h3>
+      <p class="portfolio-section__slide-descr">Business Centers</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="repair">
+      <img src="img/page-work/work-content_08.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Scandinavian Style Interior</h3>
+      <p class="portfolio-section__slide-descr">Private houses</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="repair">
+      <img src="img/page-work/work-content_09.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Brown and Gray Painted House</h3>
+      <p class="portfolio-section__slide-descr">Private houses</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="design">
+      <img src="img/page-work/work-content_04.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Modern Double Bedroom</h3>
+      <p class="portfolio-section__slide-descr">Apartments & flats</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="design">
+      <img src="img/page-work/work-content_05.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Kids Bedroom With Decorations</h3>
+      <p class="portfolio-section__slide-descr">Apartments & flats</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="constr">
+      <img src="img/page-work/work-content_01.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Cubes Building</h3>
+      <p class="portfolio-section__slide-descr">Business Centers</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="constr">
+      <img src="img/page-work/work-content_02.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Modern Cottage</h3>
+      <p class="portfolio-section__slide-descr">Private houses</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="constr">
+      <img src="img/page-work/work-content_03.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Luxury Beach House</h3>
+      <p class="portfolio-section__slide-descr">Private houses</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="constr">
+      <img src="img/page-work/work-content_01.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Cubes Building</h3>
+      <p class="portfolio-section__slide-descr">Business Centers</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="constr">
+      <img src="img/page-work/work-content_02.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Modern Cottage</h3>
+      <p class="portfolio-section__slide-descr">Private houses</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="constr">
+      <img src="img/page-work/work-content_03.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Luxury Beach House</h3>
+      <p class="portfolio-section__slide-descr">Private houses</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="constr">
+      <img src="img/page-work/work-content_02.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Modern Cottage</h3>
+      <p class="portfolio-section__slide-descr">Private houses</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+    <div class="portfolio-section__slide work-content__item active" data-target="constr">
+      <img src="img/page-work/work-content_03.svg" alt="Portfolio Cover" class="portfolio-section__slide-img">
+      <h3 class="portfolio-section__slide-title subtitle">Luxury Beach House</h3>
+      <p class="portfolio-section__slide-descr">Private houses</p>
+      <a href="#" class="portfolio-section__slide-btn btn-reset btn btn--stroke-light">View Project</a>
+    </div>
+
+  </div>
+  <button class="load-more btn-reset"><span></span>Load more</button>
+</section>
+
+      <section class="testimonials">
+  <div class="container testimonials__container">
+
+    <div class="testimonials__content">
+      <h2 class="title testimonials__title">What our clients are saying</h2>
+
+      <div class="swiper testimonials__slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testimonials__slider-img">
+              <img src="img/testimonials_01.png" alt="Client's photo">
+            </div>
+
+            <p class="testimonials__descr descr descr--small">
+              Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum
+              consequat
+              minim <span>laboris cillum laboris voluptate minim</span> proident exercitation ullamco.
+            </p>
+            <p class="testimonials__name">Shawn Edwards <span>Position, Company name</span></p>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonials__slider-img">
+              <img src="img/testimonials_01.png" alt="Client's photo">
+            </div>
+
+            <p class="testimonials__descr descr descr--small">
+              Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum
+              consequat
+              minim <span>laboris cillum laboris voluptate minim</span> proident exercitation ullamco.
+            </p>
+            <p class="testimonials__name">Shawn Edwards <span>Position, Company name</span></p>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonials__slider-img">
+              <img src="img/testimonials_01.png" alt="Client's photo">
+            </div>
+
+            <p class="testimonials__descr descr descr--small">
+              Ipsum aute sunt aliquip aute et occaecat. Anim minim do cillum eiusmod enim. Consectetur magna cillum
+              consequat
+              minim <span>laboris cillum laboris voluptate minim</span> proident exercitation ullamco.
+            </p>
+            <p class="testimonials__name">Shawn Edwards <span>Position, Company name</span></p>
+          </div>
+        </div>
+        <div class="slider-nav testimonials__slider-nav">
+          <button class="btn-reset slider-nav__btn  slider-btn testimonials-section__prev">
+            <svg>
+              <use xlink:href="img/sprite.svg#prev-btn"></use>
+            </svg>
+          </button>
+          <button class="btn-reset slider-nav__btn  slider-btn testimonials-section__next">
+            <svg>
+              <use xlink:href="img/sprite.svg#next-btn"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <img src="img/testimonials_02.jpg" alt="" class="testimonials__img">
+
+  </div>
+</section>
+
+      <section class="partners partners--work ">
+  <div class="container">
+    <h2 class="partners__title title title--center">Our clients</h2>
+    <ul class="partners__list list-reset">
+      <li class="partners__item">
+        <a href="#" class="partners__link">
+          <img src="img/partners/partners-logo_01.svg" alt="Logo in Depth Consulting" class="partners__img">
+        </a>
+      </li>
+
+      <li class="partners__item">
+        <a href="#" class="partners__link">
+          <img src="img/partners/partners-logo_02.svg" alt="Logo in Depth Consulting" class="partners__img">
+        </a>
+      </li>
+
+      <li class="partners__item">
+        <a href="#" class="partners__link">
+          <img src="img/partners/partners-logo_03.svg" alt="Logo in Depth Consulting" class="partners__img">
+        </a>
+      </li>
+
+      <li class="partners__item">
+        <a href="#" class="partners__link">
+          <img src="img/partners/partners-logo_04.svg" alt="Logo in Depth Consulting" class="partners__img">
+        </a>
+      </li>
+
+      <li class="partners__item">
+        <a href="#" class="partners__link">
+          <img src="img/partners/partners-logo_05.svg" alt="Logo in Depth Consulting" class="partners__img">
+        </a>
+      </li>
+
+      <li class="partners__item">
+        <a href="#" class="partners__link">
+          <img src="img/partners/partners-logo_06.svg" alt="Logo in Depth Consulting" class="partners__img">
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+      <section class="form-request">
+  <div class="container form-request__container">
+
+    <form action="#" id="form-2" class="form form-request__form">
+      <h2 class="form-request__title subtitle subtitle--center subtitle--big ">A quick way to discuss details
+      </h2>
+
+      <div class="form__content form-request__content">
+        <label class=" form-request__label">
+          <span class="form__label-caption form-request__label-caption">Name*</span>
+          <input type="text" name="Name" class="input-reset  form-request__input input-name" placeholder="Your name">
+        </label>
+        <label class=" form-request__label">
+          <span class="form__label-caption form-request__label-caption">Phone*</span>
+          <input type="tel" name="Phone" class="input-reset  form-request__input input-tel"
+            placeholder="Your phone number">
+        </label>
+        <label class=" form-request__label">
+          <span class="form__label-caption form-request__label-caption">Email</span>
+          <input type="email" name="Email" class="input-reset  form-request__input input-email"
+            placeholder="Your working email">
+        </label>
+        <label class="form-request__label form-request__label--big">
+          <span class="form__label-caption form-request__label-caption">Message*</span>
+          <textarea name="Message" class="input-reset form-request__input form-request__input--big input-message"
+            placeholder="Your message"></textarea>
+        </label>
+        <label class="custom-checkbox form-request__label">
+          <input type="checkbox" name="checkbox" class="input-reset custom-checkbox__input " checked>
+          <span class="custom-checkbox__content" tabindex="0">I agree to receive communications from Createx
+            Construction
+            Bureau.</span>
+        </label>
+        <button class="btn-reset form__btn form-request__btn btn btn--fill" type="submit">send request</button>
+      </div>
+
+    </form>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__top-social">
+
+        <div class="footer__social-box">
+          <a target="_blank" aria-label="Link logo" class="footer__social-logo" href="index.html"><img
+              src="img/footer-logo.svg" alt=""></a>
+          <a target="_blank" aria-label="whatsapp" class="footer__social-icon" href="https://www.whatsapp.com/"> <img
+              src="img/social/whatsapp.svg" alt="whatsapp"></a>
+          <a target="_blank" aria-label="messanger" class="footer__social-icon" href="https://www.messenger.com/"><img
+              src="img/social/messanger.svg" alt="messanger"></a>
+          <a target="_blank" aria-label="facebook" class="footer__social-icon" href="https://www.facebook.com/"><img
+              src="img/social/facebook.svg" alt="facebook"></a>
+          <a target="_blank" aria-label="twitter" class="footer__social-icon" href="https://www.twitter.com/"><img
+              src="img/social/twitter.svg" alt="twitter"></a>
+          <a target="_blank" aria-label="youtube" class="footer__social-icon" href="https://www.youtube.com/"> <img
+              src="img/social/youtube.svg" alt="youtube"></a>
+        </div>
+        <div class="footer__top-descr">
+          Createx Construction Bureau has been successfully operating in the USA construction market since 2000. We are
+          proud to offer you quality construction and exemplary service. Our mission is to set the highest standards for
+          construction sphere.
+        </div>
+      </div>
+
+      <div class="footer__top-subscribe">
+        <h3 class="footer__top-title">Let’s stay in touch</h3>
+        <form action="#" class="footer-form">
+          <div class="footer-form__box">
+            <input type="email" name="email" class="input-reset footer-form__input" placeholder="Your email address ">
+            <button class="footer-form__btn btn-reset btn btn--fill">subscribe</button>
+          </div>
+        </form>
+        <div class="footer__top-text">
+          *Subscribe to our newsletter to receive communications and early updates from Createx Construction Bureau.
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bot">
+      <address class="footer-address">
+        <ul class="footer__list list-reset">
+          <li class="footer__item footer__item-descr" aria-label="list title">Head office</li>
+          <li class="footer__item"><a href="#" class="footer__link"><span class="footer__link--accent">Address:</span>
+              8502 Preston Rd. Inglewood, New York</a></li>
+          <li class="footer__item"><a href="tel:4055550128" class="footer__link"><span
+                class="footer__link--accent">Call:</span>
+              (405) 555-0128</a></li>
+          <li class="footer__item"><a href="mailto:hello@createx.com" class="footer__link"><span
+                class="footer__link--accent">Email:</span>
+              hello@createx.com</a></li>
+        </ul>
+      </address>
+      <nav class="footer-nav" title="Secondary navigation">
+        <ul class="footer__list list-reset">
+          <li class="footer__item footer__item-descr" aria-label="list title">Who we are</li>
+          <li class="footer__item"><a href="about.html" class="footer__link">About Us</a></li>
+          <li class="footer__item"><a href="positions.html" class="footer__link">Available Positions</a></li>
+          <li class="footer__item"><a href="contacts.html" class="footer__link">Contacts</a></li>
+        </ul>
+
+        <ul class="footer__list list-reset">
+          <li class="footer__item footer__item-descr" aria-label="list title">Our experience</li>
+          <li class="footer__item"><a href="services.html" class="footer__link">Services</a></li>
+          <li class="footer__item"><a href="work.html" class="footer__link">Work</a></li>
+          <li class="footer__item"><a href="news.html" class="footer__link">News</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div class="footer__copyright">
+      <div class="footer__copyright-descr">
+        © All rights reserved. Made with <span> by</span> Createx Studio
+      </div>
+      <button class="btn-reset footer__copyright-btn">go to top </button>
+    </div>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>
